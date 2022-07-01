@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/goldenwo.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/goldenwo.github.io/static/js/main.d66035b3.js",
+    "main.js": "/goldenwo.github.io/static/js/main.8a2940a8.js",
     "static/js/787.5809834d.chunk.js": "/goldenwo.github.io/static/js/787.5809834d.chunk.js",
     "static/media/logo.svg": "/goldenwo.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/goldenwo.github.io/index.html",
     "main.073c9b0a.css.map": "/goldenwo.github.io/static/css/main.073c9b0a.css.map",
-    "main.d66035b3.js.map": "/goldenwo.github.io/static/js/main.d66035b3.js.map",
+    "main.8a2940a8.js.map": "/goldenwo.github.io/static/js/main.8a2940a8.js.map",
     "787.5809834d.chunk.js.map": "/goldenwo.github.io/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d66035b3.js"
+    "static/js/main.8a2940a8.js"
   ]
 }
