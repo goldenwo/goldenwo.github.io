@@ -1,0 +1,11 @@
+.nav-link {
+    background-color: transparent;
+    color: black;
+    border-radius: 0px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.nav-link:hover {
+   background-color: rgb(213, 213, 213);
+   color: white;
+}
