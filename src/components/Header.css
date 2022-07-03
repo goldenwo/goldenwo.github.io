@@ -1,11 +1,20 @@
-.nav-link {
+.btn-name {
+    background-color: transparent;
+    color: black;
+    border-radius: 0px;
+}
+.btn-header {
     background-color: transparent;
     color: black;
     border-radius: 0px;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.nav-link:hover {
-   background-color: rgb(213, 213, 213);
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.btn-header:hover {
+   background-color: rgb(217, 217, 217);
    color: white;
 }

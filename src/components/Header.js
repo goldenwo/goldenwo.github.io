@@ -1,20 +1,26 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Button } from "react-bootstrap";
 import "./Header.css";
-import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 
 const Header = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
+
 	return (
-		<Navbar className="ps-2 pe-2 py-0" bg="light" variant="light" sticky="top">
-			<Container>
-				<Navbar.Brand>Golden Wo</Navbar.Brand>
-			</Container>
-			<Container className="justify-content-end">
-				<Nav.Link>About</Nav.Link>
-				<Nav.Link>Projects</Nav.Link>
-				<Nav.Link>Contact Me</Nav.Link>
-			</Container>
-		</Navbar>
+        <Navbar className="ps-2 pe-2 py-0" bg="light" variant="light" sticky="top">
+            <Container>
+                <Navbar.Brand as={Button} variant="name" onClick={scrollToTop}>Golden Wo</Navbar.Brand>
+            </Container>
+            <Container className="justify-content-end">
+                <Button variant="header">About</Button>
+                <Button variant="header">Projects</Button>
+                <Button variant="header">Contact Me</Button>
+            </Container>
+        </Navbar>
 	);
 };
 
